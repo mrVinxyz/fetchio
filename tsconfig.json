@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "lib": ["ESNext"],
+        "module": "ESNext",
+        "target": "ESNext",
+
+        // Bundler
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "bundler",
+        "isolatedModules": true,
+        "allowImportingTsExtensions": true,
+
+        // Best practices
+        "skipLibCheck": true,
+        "useDefineForClassFields": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "alwaysStrict": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "strictBindCallApply": true
+    },
+    "include": ["src"]
+}
